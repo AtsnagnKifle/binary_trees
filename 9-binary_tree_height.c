@@ -5,7 +5,6 @@
   * @tree: pointer to the root node of the tree to traverse
   * Return: if tree is NULL return 0
   */
-
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t left_height, right_height;
